@@ -147,28 +147,28 @@ export default function LandingPage() {
           id: "suite-1",
           name: "Executive Suite",
           price: "From $800/night",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-asian-woman-relaxes-leisure-around-swimming-pool_74190-11524.jpg?_wi=1",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-asian-woman-relaxes-leisure-around-swimming-pool_74190-11524.jpg",
           imageAlt: "Executive Suite with city view",
         },
         {
           id: "suite-2",
           name: "Presidential Penthouse",
           price: "From $2,500/night",
-          imageSrc: "http://img.b2bpic.net/free-photo/panoramic-sauna-view-organic-wooden-columns-resort-style-wellness_169016-68883.jpg?_wi=1",
+          imageSrc: "http://img.b2bpic.net/free-photo/panoramic-sauna-view-organic-wooden-columns-resort-style-wellness_169016-68883.jpg",
           imageAlt: "Presidential Penthouse living area",
         },
         {
           id: "suite-3",
           name: "Deluxe King Room",
           price: "From $500/night",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-woman-resting-home_7502-9290.jpg?_wi=1",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-woman-resting-home_7502-9290.jpg",
           imageAlt: "Deluxe King Room bedroom",
         },
         {
           id: "suite-4",
           name: "Luxury Villa",
           price: "From $1,500/night",
-          imageSrc: "http://img.b2bpic.net/free-photo/male-hotel-porter-carrying-luggage-help-people-reception-lobby-area-moving-trolley-bags-guests-registering-modern-resort-elegant-concierge-providing-luxury-service_482257-75143.jpg?_wi=1",
+          imageSrc: "http://img.b2bpic.net/free-photo/male-hotel-porter-carrying-luggage-help-people-reception-lobby-area-moving-trolley-bags-guests-registering-modern-resort-elegant-concierge-providing-luxury-service_482257-75143.jpg",
           imageAlt: "Luxury Villa with private terrace",
         },
       ]}
@@ -205,6 +205,7 @@ export default function LandingPage() {
 
   <div id="gallery" data-section="gallery">
       <ProductCardThree
+      animationType="blur-reveal"
       textboxLayout="default"
       gridVariant="bento-grid"
       useInvertedBackground={true}
@@ -213,28 +214,28 @@ export default function LandingPage() {
           id: "suite-1",
           name: "Executive Suite",
           price: "From $800/night",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-asian-woman-relaxes-leisure-around-swimming-pool_74190-11524.jpg?_wi=2",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-asian-woman-relaxes-leisure-around-swimming-pool_74190-11524.jpg",
           imageAlt: "Executive Suite with city view",
         },
         {
           id: "suite-2",
           name: "Presidential Penthouse",
           price: "From $2,500/night",
-          imageSrc: "http://img.b2bpic.net/free-photo/panoramic-sauna-view-organic-wooden-columns-resort-style-wellness_169016-68883.jpg?_wi=2",
+          imageSrc: "http://img.b2bpic.net/free-photo/panoramic-sauna-view-organic-wooden-columns-resort-style-wellness_169016-68883.jpg",
           imageAlt: "Presidential Penthouse living area",
         },
         {
           id: "suite-3",
           name: "Deluxe King Room",
           price: "From $500/night",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-woman-resting-home_7502-9290.jpg?_wi=2",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-woman-resting-home_7502-9290.jpg",
           imageAlt: "Deluxe King Room bedroom",
         },
         {
           id: "suite-4",
           name: "Luxury Villa",
           price: "From $1,500/night",
-          imageSrc: "http://img.b2bpic.net/free-photo/male-hotel-porter-carrying-luggage-help-people-reception-lobby-area-moving-trolley-bags-guests-registering-modern-resort-elegant-concierge-providing-luxury-service_482257-75143.jpg?_wi=2",
+          imageSrc: "http://img.b2bpic.net/free-photo/male-hotel-porter-carrying-luggage-help-people-reception-lobby-area-moving-trolley-bags-guests-registering-modern-resort-elegant-concierge-providing-luxury-service_482257-75143.jpg",
           imageAlt: "Luxury Villa with private terrace",
         },
       ]}
